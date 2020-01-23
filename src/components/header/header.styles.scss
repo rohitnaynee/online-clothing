@@ -1,0 +1,43 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    .logo-container {
+        height: 170%;
+        width:100%;
+        padding: none;     
+         .logo{
+            display: inline-block;
+            height: 43px;
+            margin-left: -30px;
+            
+         }
+    }
+
+    .company-name{
+        width: 720px;
+        align-content: center;
+        justify-content: flex-start;
+        display: flex;
+        font-family: Lucida;
+        color: salmon;
+        
+    }
+   
+
+    .options {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+      .option {
+          padding: 10px 15px;
+          cursor: pointer;
+      }
+    }
+}
