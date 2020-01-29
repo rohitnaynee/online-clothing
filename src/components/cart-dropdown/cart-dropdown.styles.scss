@@ -1,0 +1,42 @@
+.cart-dropdown {
+    position: absolute;
+    width: 240px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    background-color:white;
+    top: 80px;
+    right: 0;
+    z-index: 5;
+
+    .empty-message {
+        font-size: 18px;
+        margin: 10px auto;
+    }
+
+    .cart-items {
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    button {
+        margin-top: auto;
+    }
+
+    .custom-button{
+        
+        background-color: black ;
+        border: 1px solid black;
+
+        &:hover{
+            background-color: white;
+            color: black;
+            opacity: 0.8;
+        }
+        
+    }
+}
